@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: #292929;
+    overflow: auto;
+}
+
+.commands-title {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+
+.commands-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+table, td, tr {
+    height: 64px;
+    width: 50%;
+    border: 1px solid #8d51f5;
+    border-collapse: collapse
+}
+
+th {
+    color: white;
+}
+
+td {
+    text-align: center;
+    color: white;
+}
+
+.footer-div {
+    background-color: transparent;
+    font-size: 10px;
+    padding: 1rem;
+    color: grey;
+    text-align: center;
+}

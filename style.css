@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+}
+
+body {
+    background-color: #292929;
+   
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+nav {
+    margin-left: 1010px
+}
+
+.bot-logo {
+    margin-right: auto;
+}
+
+.bot-logo img {
+    height: 30px;
+    margin-left: 10px;
+}
+
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-right: 20px;
+}
+
+li i {
+    margin-right: 10px
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #8d51f5;
+}
+
+
+
+.container-one h1 {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+.container-one h5 {
+    color: grey;
+    text-align: center;
+    font-size: 15px;
+}
+
+span {
+    color: #8d51f5;
+}
+
+.container-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px
+}
+
+.bot-invite {
+    font-size: 15px;
+    color: white;
+    border: 1px solid white;
+    padding: 1rem 2rem;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #4400ba;
+    transition: transform 0.3s ease;
+}
+
+.bot-invite:hover {
+    transform: scale(1.15);
+}
+
+.bot-logo {
+    margin-right: auto;
+    width: 20px
+}
+.bot-invite i {
+    margin-right: 10px
+}
+
+.support-server {
+    margin-left: 20px;
+    font-size: 15px;
+    color: white;
+    border: 1px solid grey;
+    padding: 1rem 2rem;
+    width: 200px;
+    border-radius: 10px;
+    background-color: transparent;
+    box-shadow:hsl(from color 5 5 5);
+    transition: transform 0.3s ease;
+}
+
+.support-server:hover {
+    transform: scale(1.15)
+}
+.support-server i {
+    margin-right: 10px;
+}
+
+.container-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.commands {
+    font-size: 15px;
+    color: white;
+    border: 1px solid grey;
+    padding: 1rem 2rem;
+    width: 200px;
+    border-radius: 10px;
+    background-color: transparent;
+    transition: transform 0.3s ease;
+}
+
+.commands i {
+    margin-right: 10px;
+}
+
+.commands:hover {
+    transform: scale(1.15);
+}
+
+.container-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+
+.box-one {
+    background-color: transparent;
+    border: 1px solid grey;
+    border-radius: 10px;
+    height: 270px;
+    width: 256px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-one i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: white;
+}
+
+.box-one h5 {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.box-one p {
+    color: grey;
+    font-size: 13px;
+    text-align: center;
+}
+
+.box-two {
+    background-color: transparent;
+    border: 1px solid grey;
+    border-radius: 10px;
+    height: 270px;
+    width: 256px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-two i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: white;
+}
+
+.box-two h5 {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.box-two p {
+    color: grey;
+    font-size: 13px;
+    text-align: center;
+}
+
+.footer-div {
+    background-color: transparent;
+    font-size: 10px;
+    padding: 1rem;
+    color: grey;
+    text-align: center;
+}
